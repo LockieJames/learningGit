@@ -23,7 +23,6 @@ E.g: diff -u game_old.js game_new.js
 
 
 
-
 ---------------------------------------------
 
 All git commands in lesson 1:
