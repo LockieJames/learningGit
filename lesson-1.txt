@@ -1,0 +1,35 @@
+The command diff compares 2 files to each other and notes down each thing that is different in each with - and +
+
+E.g: diff -u game_old.js game_new.js
+
+--- game_old.js	2018-11-21 19:58:37.000000000 +0200
++++ game_new.js	2018-11-21 21:19:43.000000000 +0200
+@@ -4,9 +4,9 @@
+ //
+
+ KEY_CODES = {
++  13: 'enter',
+   32: 'space',
+   37: 'left',
+-  38: 'up',
+   39: 'right',
+   40: 'down',
+   70: 'f',
+
+
++ is for things added on game_new.js
+- is for things removed from game_old.js
+
+
+
+
+
+---------------------------------------------
+
+All git commands in lesson 1:
+    git clone 'http to repository' -> imports the repository onto PC
+    git diff 'original commit' 'new commit' -> checks what is different between two commits
+    git log -> prints out all of commits that have happened
+    git checkout 'commit ID' -> changes everything back to how it was in that commit selected
+
+---------------------------------------------
