@@ -33,3 +33,10 @@ All git commands in lesson 1:
     git checkout 'commit ID' -> changes everything back to how it was in that commit selected
 
 ---------------------------------------------
+
+
+Simple commands:
+    cd <- to move around directory
+    ls <- list everything in folder
+    mkdir <- create a new folder
+    open . <- open current folder
