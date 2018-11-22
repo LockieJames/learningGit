@@ -1,0 +1,6 @@
+All git commands in lesson 3:
+    git init -> creates a new repository in that folder
+    git status -> shows files and changes that have not been committed
+    git add 'file'
+    git reset
+    git commit -m "commit message"
