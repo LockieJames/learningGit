@@ -1,6 +1,17 @@
 All git commands in lesson 3:
     git init -> creates a new repository in that folder
     git status -> shows files and changes that have not been committed
-    git add 'file'
+    git add 'file' -> adds file to staging area that you want to commit
     git reset
     git commit -m "commit message"
+    git diff -> shows the changes between the working directory and the staging area
+    git diff --staged -> shows the difference between the staging area and the commit
+    git reset --hard -> resets everything in staging area and in the file itself
+    git checkout 'branch name'
+    git branch -> shows current branches
+    git branch 'new name of branch'
+    git log --graph --oneline 'name of branches'
+    git branch -d 'name of branch'
+    git merge 'branch 1' 'branch 2'
+    git merge 'branch 2'
+    git show 'commit ID'
